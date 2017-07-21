@@ -1,4 +1,8 @@
-var styles = [
+var style = {
+  color: 'green'
+}
+
+  var styles = [
     'background: linear-gradient(#3C3B3F, #605C3C)'
     , 'border: 1px solid #3E0E02'
     , 'display: block'
@@ -23,6 +27,15 @@ var stylishConsole = {
     },
     info: function(msg) {
         console.log('%c ⚠️ '  + msg, 'color: orange;' + styles);
+    },
+    log: function(msg, style) {
+        var result = ' ';
+
+        for (var property in style) {
+            if (style.hasOwnProperty(property)) {
+                result += property + ':' + style[property] + ';';
+            }
+        }
+        console.log('%c' +  msg, result);
     }
 };
-
