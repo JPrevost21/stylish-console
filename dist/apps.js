@@ -1,0 +1,1 @@
+var stylishConsole={success:function(o){console.log("✅ "+o)},error:function(o){console.log("❌ "+o)},info:function(o){console.log("⚠️ "+o)}};
