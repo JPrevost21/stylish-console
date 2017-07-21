@@ -7,6 +7,11 @@ var styles = [
     , 'line-height: 40px'
     , 'text-align: center'
     , 'font-weight: bold'
+    , 'font-size: 16px'
+    , 'padding-left: 5px'
+    , 'padding-right: 15px'
+    , 'padding-top: 5px'
+    , 'padding-bottom: 5px'
 ].join(';');
 
 var stylishConsole = {
