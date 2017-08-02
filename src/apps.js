@@ -38,3 +38,16 @@
         }
     };
 })();
+
+
+$( ".btn-success" ).click(function() {
+    window.stylishConsole.success('Success');
+});
+
+$( ".btn-danger" ).click(function() {
+    window.stylishConsole.error('Error');
+});
+
+$( ".btn-warning" ).click(function() {
+    window.stylishConsole.info('Information');
+});
