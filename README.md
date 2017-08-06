@@ -1,7 +1,7 @@
 # Stylish-console
 A useful library that allows the user to change messages logged in the console using css properties! Visit it [here](https://github.com/JPrevost21/stylish-console)!
 
-Check out a live demo [here] ()
+Check out a live demo [here](https://jprevost21.github.io/stylish-console/)!
 
 Use this library to add css properties to the text in your console log to easily distinguish between messages.
 
